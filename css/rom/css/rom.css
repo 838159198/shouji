@@ -1,0 +1,28 @@
+body{ font-family:Microsoft YaHei,Arial, Helvetica, sans-serif; font-size:14px;background-color: #f2f2f2}
+.tbody{margin: 0 auto;}
+* {padding:0; margin:0; }
+a {color:#50b6fd; text-decoration:none;cursor: pointer;}
+a:hover{text-decoration: none;}
+.clear {clear:both; }
+img {border:0; }
+input{height: 30px;}
+.clearb{clear:both; height:0px; line-height:0px; font-size:0px;}
+.clearfix{zoom:1;}
+.clearfix:after{content:'';clear:both;display:block;height:0;visibility:hidden;}
+
+.content_1000{width: 1000px;margin: 0 auto;background-color: #f2f2f2;}
+.rom-top-bg{height:400px;margin:0 auto;background-color: #45aeff}
+.nav{height: 50px;margin: 0 auto;background:#fafafa;}
+#bNav{ background:#fafafa;  text-align:center;height: 50px;width: 1000px;margin: 0 auto}
+#bNav ul{ margin:0;}
+#bNav ul li{width: 240px;height: 50px;line-height: 50px;display:inline;font-size: 16px;float: left;border-right: 2px solid #b8b8b8}
+#bNav ul li a{display:nline-block;height: 40px}
+.cert_icon{height: 160px;margin-bottom: 20px;}
+.cert_icon ul li{float: left;width: 200px;margin-left: 130px;height: 150px;list-style: none}
+.cert_ad{margin-top: 20px;height:400px;background-color: #45aeff;height: 400px;float: left;width: 100%;}
+.footer{height: 150px;background-color: #434343;float: left;width: 100%;}
+.footer_content{padding-top: 50px;padding-bottom: 10px;color: #ffffff; width: 1000px; margin: 0 auto;text-align: center;}
+.radelef{width: 320px;height: 400px;float: left;}
+.raderig{width: 680px;float: left;height: 400px;}
+.raderig ul{width: 680px;}
+.raderig ul li{width: 680px;float: left;list-style: none;list-style-type: none;height: 220px;line-height: 220px;padding-left: 45px;color: #fcffff}

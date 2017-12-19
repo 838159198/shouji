@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /storage/
+Disallow: /protected/
+Disallow: /old/
+

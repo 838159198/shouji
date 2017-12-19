@@ -1,0 +1,39 @@
+body{ background: #fd4e54;}
+table,th,tr,td{ margin: 0; padding: 0;border: 0;}
+.songqian-banner{ width: 100%; height: 396px; background: #fd4e54; overflow: hidden;}
+.songqian-banner-bg{ width: 1000px; margin: 0 auto; background: url("images/sqbanner.jpg") 0 0 no-repeat; height: 396px;}
+#lottery{width:568px;height:568px; padding:16px;margin:0;background:url(images/bg.jpg) no-repeat;}
+#lottery table td{width:142px;height:142px;text-align:center;vertical-align:middle;font-size:24px;color:#333;font-index:-999}
+#lottery table td a{width:284px;height:284px;line-height:150px;display:block;text-decoration:none;}
+#lottery table td a:hover{ cursor: pointer;}
+#lottery table td.active{width:142px;height:142px;background-color:#cc0000;}
+#demo{width:300px; margin:50px auto 10px; overflow:hidden;}
+#demo a{float:left; width:90px; height:30px; line-height:30px; text-align:center; margin-left:10px; background-color:#000; color:#fff; text-decoration:none; font-weight:bold;}
+#demo a.cur{background-color:#933;}
+
+.songqian-container{ width: 1000px; background: #de1e37; margin: 0 auto; margin-top: 20px; overflow: hidden;}
+.songqian-container-content{ width: 600px; float: left;}
+.songqian-container-side{ width: 380px; float: right; overflow: hidden;}
+/*记录*/
+.songqian-jilu{ width: 360px; height: 600px; margin-right: 20px;overflow: hidden;}
+.songqian-jilu-title{ height: 50px; line-height: 50px; font-size: 18px; color: #fff;}
+.songqian-jilu-content{ margin: 0 0 20px 0;}
+.songqian-jilu-content dl{ height: 25px; line-height: 25px; color: #ff92ad; font-size: 14px;}
+.songqian-jilu-content dl dt{ width: 70px; float: left;}
+.songqian-jilu-content dl dd{ width: 280px; float: right;}
+
+.songqian-shuoming{width: 1000px; margin: 0 auto; margin-top: 20px; overflow: hidden;}
+.songqian-shuoming-title{ font-size: 30px; line-height: 60px; color: #fff;}
+.songqian-shuoming-content{ font-size: 14px; line-height: 20px; text-align: left; color: #fff;}
+.songqian-shuoming-content p{margin: 10px 0;}
+
+.songqian-tips-none{ display: none;}
+.songqian-tips-block{ display: block;}
+
+#lotteryMsg{ background: #eee; width: 500px; position: fixed; height: 300px; top: 50%; margin-top: -150px;
+    left: 50%; margin-left: -250px;z-index: 99999; border: 5px solid #e1bf00;}
+#lotteryMsg .lotter_msg{font-size: 26px; margin-top: 80px; color: #ff0000; line-height: 50px; height: 50px; text-align: center; overflow: hidden;}
+#lotteryMsg .lotter_tips{ margin-top: 20px; font-size: 16px; color: #333; line-height: 30px; height: 30px; text-align: center; overflow: hidden;}
+#lotteryMsg .lotter_closed{ color: #0000ff; font-size: 14px; font-weight: bold; text-align: center; margin-top: 30px;}
+#lotteryMsg .lotter_closed a{ color: #0000ff; text-decoration: none;}
+#lotteryMsg .lotter_closed a:hover{ color: #ff0000; text-decoration: none;}

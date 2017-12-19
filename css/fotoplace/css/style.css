@@ -1,0 +1,26 @@
+﻿@charset "utf-8";
+*{margin:0;padding:0;list-style:none;border:0;}
+body{width:100%;margin:0 auto;overflow:hidden}
+html, body {
+    position: relative;
+}
+body {
+    background: #eee;
+    min-width: 1024px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+.main_visual{position:relative;}
+
+
+.flicking_con{position:absolute;top: 200px;left:50%;z-index:999;width:300px;height:21px;margin:0 0 0 -50px;}
+.flicking_con a{float:left;width:21px;height:21px;margin:0;padding:0;background:url('/css/fotoplace/images/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px;}
+.flicking_con a.on{background-position:0 -21px}
+#btn_prev,#btn_next{z-index:11111;position:absolute;display:block;width:73px!important;height:74px!important;top:50%;margin-top:-37px;display:none;cursor: pointer;}
+#btn_prev{background:url(/css/fotoplace/images/hover_left.png) no-repeat left top;left:100px;}
+#btn_next{background:url(/css/fotoplace/images/hover_right.png) no-repeat right top;right:100px;}

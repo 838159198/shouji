@@ -1,0 +1,272 @@
+
+#header {
+    width:960px;
+    margin:0 auto;
+height: 1000px;
+    position:relative;
+
+}
+
+#turnplatewrapper {
+    height:592px;
+    width:592px;
+    background:url('img/turnplate/plate_06.png') top left no-repeat;
+    /*_background:url('img/turnplate/plate_06_8.png') top left no-repeat;*/
+    left:200px;
+    top:20px;
+    position:absolute;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+#turnplate {
+    height:592px;
+    width:592px;
+    background:url('img/turnplate/plate_05.png') top left no-repeat;
+    /*_background:url('img/turnplate/plate_05_8.png') top left no-repeat;*/
+}
+
+#turnplate #awards {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url('img/turnplate/plate_03.png') top left no-repeat;
+    /*_background:url('img/turnplate/plate_03_8.png') top left no-repeat;*/
+}
+
+#platebtn {
+    position:absolute;
+    top:218px;
+    left:218px;
+    background:url('img/turnplate/plate_04.png') top left no-repeat;
+    /*_background:url('img/turnplate/plate_04_8.png') top left no-repeat;*/
+    height:155px;
+    width:155px;
+    cursor:pointer;
+}
+
+#platebtn.hover {
+    background-position:0 -155px
+}
+
+#turnplate #platebtn.click {
+    background-position:0 -310px
+}
+
+#gift {
+    width:398px;
+    height:89px;
+    background:url('img/turnplate/plate_gift_01.png') top left no-repeat;
+    /*_background:url('img/turnplate/plate_gift_01_8.png') top left no-repeat;*/
+    position:absolute;
+    left:90px;
+    top:720px;
+}
+
+#msg {
+    position:absolute;
+    display:none;
+    top:130px;
+    left:195px;
+    border-radius:5px;
+    color:#333;
+    border:3px solid #FED33f;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.6);
+    background:#fffcf2;
+    width:200px;
+    padding:10px;
+    text-align:center;
+}
+
+#content {
+    width:960px;
+    margin:0 auto;
+}
+
+
+
+#init {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    color:#333;
+    border:3px solid #FED33f;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.6);
+    background:#fffcf2;
+    width:250px;
+    padding:10px;
+    margin-top:-30px;
+    margin-left:-138px;
+    text-align:center;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+}
+
+#login {
+    margin-left:20px;
+}
+
+#login .tips {
+    margin-left:50px;
+    font-size:12px;
+    margin-bottom:-5px;
+}
+
+#login .tips a {
+    color:#039;
+    font-size:16px;
+    text-decoration:underline;
+}
+
+#login .tips a:hover {
+}
+
+#login .msg {
+    color:red;
+}
+
+#login label {
+    height:30px;
+    line-height:30px;
+    font-size:16px;
+}
+
+#login .ipt {
+    background:#fff;
+    border:1px solid #ccc;
+    height:28px;
+    line-height:28px;
+    margin-bottom:10px;
+    box-shadow:0 1px 0 #fff;
+    border-radius:2px;
+    width:200px;
+}
+
+#login .ipt:focus {
+    box-shadow:0 0 3px rgba(86,180,289,0.3);
+    border:1px solid #56b4ef;
+}
+
+#lotteryMsg {
+
+}
+
+#lotteryMsg .msg {
+    font-size:16px;
+    color:red;
+    font-weight:bold;
+    text-align:center;
+    font-size:26px;
+    color:#ba0f54;
+    line-height:1;
+    margin-bottom:10px;
+}
+
+#lotteryMsg .tips {
+    text-align:center;
+    font-size:14px;
+}
+
+#lotteryMsg .sp {
+    border-top:1px solid #c3c3c3;
+    border-bottom:0 none transparent;
+    border-right:0 none transparent;
+    border-left:0 none transparent;
+    overflow:hidden;
+    height:0;
+    margin:10px 0;
+}
+
+#lotteryMsg a {
+    color:#138cbe;
+}
+
+#lotteryMsg a:hover {
+    color:#039;
+}
+
+#lotteryMsg .content {
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:10px;
+    background:#fff;
+    line-height:1.5;
+}
+
+#top-menu-wrapper {
+    height:51px;
+    background:url('img/turnplate/bg_02.png') top center repeat-x;
+    margin-bottom:-51px;
+}
+
+#top-menu {
+    width:960px;
+    margin:0 auto;
+}
+
+#top-menu a, #top-menu span {
+    line-height:50px;
+    display:inline-block;
+    font-size:16px;
+    color:#fff;
+    text-decoration:1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#top-menu .user {
+    padding-left:30px;
+    display:inline-block;
+    height:50px;
+    color:#fff;
+    background:url('img/turnplate/bg_03.png') 0 16px no-repeat;
+}
+
+
+      /*jquery ui 定制 */
+  body .ui-dialog {
+      padding:0px;
+      background:#ebeae3;
+      box-shadow:2px 2px 5px rgba(0,0,0,0.5);
+  }
+
+body .ui-dialog .ui-dialog-titlebar {
+    height:23px;
+    padding:0;
+    margin:0;
+    background:none;
+    border:0 none transparent;
+}
+
+body .ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+    display:none;
+}
+
+body .ui-widget-content {
+    border:4px solid #F7D102;
+}
+
+body .ui-dialog .ui-dialog-titlebar-close {
+    background:#f6d20d;
+    right:0;
+    margin-top:-12px;
+}
+
+body .ui-dialog .ui-dialog-buttonpane {
+    border:0 none transparent;
+}
+
+body .ui-dialog .ui-button-text {
+    padding:0.8em 1em;
+}
+
+body .ui-widget-overlay {
+    background:url('img/turnplate/bg_04.png');
+    _filter:alpha(opacity=60);
+}
+
+.mv5 {
+    margin-left:5px;
+    margin-right:5px;
+}

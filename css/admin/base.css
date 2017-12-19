@@ -1,0 +1,23 @@
+body{background: #fff; padding-top: 60px; }
+.app_head h1{ font-family: "Microsoft Yahei","微软雅黑", "宋体", Arial, sans-serif;}
+.app_button{ margin-bottom: 20px;}
+/*logo*/
+.navbar-header .navbar-brand{ padding-top: 7px;}
+/*错误提示消息*/
+.errorMessageTips{background-color: #d9534f;display:inline-block;
+    padding: 0.5em 0.6em;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em; margin-top: 7px;}
+
+/*修改bs*/
+.table>tbody>tr>td{ vertical-align: middle; }
+/**/
+#thispage{padding-left: 100px;padding-right: 100px;}
+h3,h4{font-size: 24.5px;font-family: "微软雅黑", "宋体", Arial, sans-serif;}
+.dl-horizontal{overflow-x:hidden;max-height: 500px;width:492px;overflow-y: auto;}

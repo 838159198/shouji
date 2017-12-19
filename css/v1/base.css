@@ -1,0 +1,78 @@
+body{ background: #fff; font-size: 12px; margin: 0; padding: 0;}
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;font-size: 12px;}
+ul,li,dl,dt,dd{margin: 0;padding: 0;list-style: none;}
+img,img a{margin: 0;padding: 0;border: 0;}
+
+.top{ width: 100%; height: 30px; background: #fff; border-bottom: 1px solid #dfdfdf;}
+    .top-content{ width: 960px; margin: 0 auto;}
+    .top-user{ text-align: right; font-size: 12px; line-height: 30px; color: #dfdfdf;}
+        .top-user a{ color: #666; text-decoration: none;}
+        .top-user a:hover{ color: #ff0000; text-decoration: none;}
+.header{ background: url("images/header-bg.png") 0 0 repeat-x;
+    height: 86px;
+    width: 100%;position: fixed;
+    top: 0 px;
+z-index: 99999;}
+    .header-content{ width: 960px; margin: 0 auto;}
+    .header-content .logo{
+        margin: 15px 0 0 0px;
+        float: left;
+        display: inline;
+    }
+    .header-content .logo a{ color: #333; text-decoration: none; }
+    .header-content .logo h1{ width: 302px;
+        height: 50px;
+        background:#ffffff url("images/logo.png") 0 0 no-repeat;
+        text-indent: -1000px;
+        overflow: hidden;}
+    /*导航*/
+.header-content .nav{ float: right; margin-top: 24px;}
+.header-content .nav ul{ margin: 0; padding: 0; list-style: none;}
+.header-content .nav ul li{float: left;
+    width: 98px;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 10px;
+    font-family:"Microsoft YaHei","微软雅黑",SimSun,"宋体",Heiti,"黑体",sans-serif;}
+.header-content .nav ul li a{ color: #555; text-decoration: none;
+    -webkit-transition: 0.3s ease 0s;
+    -moz-transition: 0.3s ease 0s;
+    -o-transition: 0.3s ease 0s;
+    -ms-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+    display: block;
+    border-radius: 3px;}
+.header-content .nav ul li a:hover{ background: #eb0101; color: #fff; text-decoration: none;}
+.header-content .nav ul li a.active{ background: #eb0101; color: #fff; text-decoration: none; }
+/*大图 banner*/
+.banner{width: 100%;height: 400px;margin: 0 auto;padding-top: 80px;zoom: 1; overflow: hidden;}
+.banner .imgs{height: 400px;overflow: hidden;}
+
+.banner .nums{margin: 10px auto 30px;width: 220px;overflow: hidden;}
+.banner .nums li{float: left;overflow: hidden; list-style: none;}
+.banner .nums li p{float: left;overflow: hidden;background: transparent url("images/index-ico.png") -50px 0 no-repeat;width: 13px;height: 13px;text-indent: -999px;margin:0 5px;display: inline;cursor:pointer;_background-image:url(images/index-ico.gif);}
+.banner .nums li.curr p{background-position: -70px 0;}
+.banner .nums{position: absolute;bottom: 30px;left: 440px;width: 80px;margin: 0 auto;}
+.bg1{background: #ff0000;}
+.bg2{background: #262042;}
+.bg3{background: #fe8f00;}
+.homebanner1{ width: 960px; margin: 0 auto; position: relative; zoom: 1; overflow: hidden}
+.homebanner1 .item{display: none;position: relative;transition: left 0.6s ease-in-out 0s;}
+.homebanner1 .active, .homebanner1 .next, .homebanner1 .prev{display: block;}
+.homebanner1 .active{left: 0;}
+.homebanner1 .next, .homebanner1 .prev{position: absolute;top: 0;width: 100%;}
+.homebanner1 .next{left: 100%;}
+.homebanner1 .prev{left: -100%;}
+.homebanner1 .next.left, .homebanner1 .prev.right{left: 0;}
+.homebanner1 .active.left{left: -100%;}
+.homebanner1 .active.right {left: 100%;}
+/*底部*/
+.footer{ width: 100%;background: #323232;color: #b3b3b3; margin-top: 100px; overflow: hidden;}
+.footer-content{ width: 960px;}
+.footer-copyright{width: 100%;
+    background: #292929;
+    padding: 20px 0px;
+    text-align: center;
+    line-height: 2;
+    color: #848484;}

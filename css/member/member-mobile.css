@@ -1,0 +1,22 @@
+#mp{height: auto}
+#alert-infost{width: auto;margin-right:10px;display: block;float: left;}
+#alert-infost p{width: auto;margin-right: 0px;float: left;min-width: 200px;}
+#alert-infost p b{}
+#alert-infost .btn-primary{float: left;}
+#alert-infost .btn-group{float: left;}
+
+#mh1{margin-left: 0px;}
+#mh2{float: left;}
+#mh3{float: left;padding-left: 14px;}
+.input-append input{width: 100%;margin-bottom: 10px;}
+#mfinst{margin-left: 0px;}
+#mlist{height:auto;float: left;padding: 5px;}
+
+#mlist .tongji{width: 100%;float: left;height: auto;}
+#mlist .tongji-left{width: 100%;float: left;height: auto;padding-bottom: 10px;padding-top: 5px;border-bottom: 1px solid #cccccc;}
+#mlist .tongji-rig{width: 100%;float: left;height: auto;padding-bottom: 10px;padding-top: 5px;border-bottom: 1px solid #cccccc;}
+#mlist .tongji-rig2{width: 100%;float: left;height: auto;padding-bottom: 10px;}
+
+
+
+
